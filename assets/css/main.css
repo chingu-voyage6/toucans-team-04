@@ -1,0 +1,85 @@
+/*
+----------------------
+Main Stylesheet for SpaceTours
+Authors: Chingu team 04
+https://github.com/chingu-voyage6/toucans-team-04
+
+Colors
+#162238
+#4d4e5c
+#c7cfdd
+#cebfc4
+#8d7b92
+
+Sources used:
+Boilerplate: http://getskeleton.com/
+Icons: https://www.flaticon.com        
+----------------------
+*/
+
+
+
+
+
+
+
+/*
+----------------------*
+    FORMS             *
+----------------------* 
+*/
+
+
+
+/* Valdidation */
+
+.form input:required:invalid, input:focus:invalid { {
+    border-left-color: palegreen;
+    background-image: url(/images/invalid.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+  }
+
+
+.form input:required:focus:valid {
+    border-left-color: salmon;
+    background: url("/images/valid.png") no-repeat 95% 50%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+/*
+-----------------------*
+    RESPONSIVE QUERIES *
+-----------------------* 
+*/
+
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than phablet */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+    .showcase-heading {
+        font-size: 3.0rem;
+        padding-top:11rem;
+    }
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+ 
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
