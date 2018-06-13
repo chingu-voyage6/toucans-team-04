@@ -32,6 +32,8 @@ We invite you on a breathtaking trip to the stars, today!
 
 Basically, lots of interactive pictures and fancy sci-fi stuff with game-y feel.
 
+# Technologies used:
+
 
 ### Team members: amsteffensen, Mikhelele, Heros
 
