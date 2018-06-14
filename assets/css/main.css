@@ -1,0 +1,94 @@
+.header {
+    display: flex;
+    font-size: 14px;
+}
+/* Mobile first queries */
+
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than phablet */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+    .showcase-heading {
+        font-size: 3.0rem;
+        padding-top:11rem;
+    }
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+ 
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
+
+.text-centered {
+    text-align: center;
+}
+
+/* Section B */
+
+.section-b h6 {
+    font-weight: bold;
+    font-stretch: expanded;
+
+    padding: 0;
+    margin: 0;
+}
+
+.section-b h5 {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin: 0;
+}
+
+/* Showcase box */
+
+.showcase-box {
+
+}
+
+.showcase-slider {
+    display: flex;
+    display: -webkit-flex;
+
+    align-items: center;
+    justify-content: center;
+
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+/* Description box */
+
+.description-box {
+    border-top: 1px dashed #ccc;
+}
+
+.description-box-short div {
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.description-box-short img {
+    border-radius: 50%;
+}
+
+.description-box-offer {
+    display: flex;
+    display: -webkit-flex;
+
+    align-items: center;
+    justify-content: center;
+
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.try-now-button {
+    margin: 3%;
+}
