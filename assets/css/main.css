@@ -15,7 +15,7 @@ Icons: https://www.flaticon.com
 ----------------------
 */
 
-.header {
+.header, footer {
     display: flex;
     font-size: 14px;
 }
@@ -102,4 +102,23 @@ h2{
 
 #img-tech p{
     text-align:center;
+}
+
+/*Footer*/
+
+footer{
+    background-color: #e7e7e7;
+    align-items: center;
+    flex-direction: column;
+    padding: 2em;
+    padding-bottom: 0;
+    font-size: 1.2em;
+}
+
+/*copyright*/
+
+#copyright{
+    text-align:center;
+    padding: 2em;
+    font-size: 1em;
 }
