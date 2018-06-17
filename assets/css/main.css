@@ -1,30 +1,25 @@
-.header {
+/*
+----------------------
+Main Stylesheet for SpaceTours
+Authors: Chingu team 04
+https://github.com/chingu-voyage6/toucans-team-04
+Colors
+#162238
+#4d4e5c
+#c7cfdd
+#cebfc4
+#8d7b92
+Sources used:
+Boilerplate: http://getskeleton.com/
+Icons: https://www.flaticon.com        
+----------------------
+*/
+
+.header, footer {
     display: flex;
     font-size: 14px;
 }
-/* Mobile first queries */
 
-/* Larger than mobile */
-@media (min-width: 400px) {}
-
-/* Larger than phablet */
-@media (min-width: 550px) {}
-
-/* Larger than tablet */
-@media (min-width: 750px) {
-    .showcase-heading {
-        font-size: 3.0rem;
-        padding-top:11rem;
-    }
-}
-
-/* Larger than desktop */
-@media (min-width: 1000px) {
- 
-}
-
-/* Larger than Desktop HD */
-@media (min-width: 1200px) {}
 
 .text-centered {
     text-align: center;
@@ -92,3 +87,124 @@
 .try-now-button {
     margin: 3%;
 }
+
+/*
+ * Header + nav
+ */
+
+.header, .main-nav, .logo{
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    box-sizing: border-box;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.logo{
+    width: 20%;
+    justify-content: flex-end
+}
+
+.main-nav{
+    margin-top: 5px;
+    width: 80%;
+}
+
+.main-nav a{
+    padding: 10px 15px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/*TECHNOLOGY SECTION*/
+
+h2{
+    text-align: center; 
+}
+
+.img-tech{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img-tech p{
+    text-align:center;
+}
+
+/*Footer*/
+
+footer{
+    background-color: #e7e7e7;
+    align-items: center;
+    flex-direction: column;
+    padding: 2em;
+    padding-bottom: 0;
+    font-size: 1.2em;
+}
+
+/*copyright*/
+
+.copyright{
+    text-align:center;
+    padding: 2em;
+    font-size: 1em;
+}
+
+/*
+----------------------*
+    FORMS             *
+----------------------* 
+*/
+
+
+
+/* Valdidation */
+
+.form input:required:invalid, input:focus:invalid { {
+                                                          border-left-color: palegreen;
+                                                          background-image: url(/images/invalid.png);
+                                                          background-position: right top;
+                                                          background-repeat: no-repeat;
+                                                      }
+
+
+                                                    .form input:required:focus:valid {
+                                                        border-left-color: salmon;
+                                                        background: url("/images/valid.png") no-repeat 95% 50%;
+                                                    } }
+
+/* Mobile first queries */
+
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than phablet */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+    .showcase-heading {
+        font-size: 3.0rem;
+        padding-top:11rem;
+    }
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+    
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
