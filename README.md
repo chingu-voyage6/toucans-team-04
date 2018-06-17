@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Project idea: 
 
 Landing page for SpaceTours - a fake space travel company.
@@ -41,6 +40,3 @@ Basically, lots of interactive pictures and fancy sci-fi stuff with game-y feel.
 
 | Chingu Voyage-6 | https://chingu.io/
 =======
-# toucans-team-04
-Add-project-description-here | Chingu Voyage-6 | https://chingu.io/
->>>>>>> parent of c2774d5... added project description
