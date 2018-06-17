@@ -163,29 +163,6 @@ footer{
     font-size: 1em;
 }
 
-/*
-----------------------*
-    FORMS             *
-----------------------* 
-*/
-
-
-
-/* Valdidation */
-
-.form input:required:invalid, input:focus:invalid { {
-                                                          border-left-color: palegreen;
-                                                          background-image: url(/images/invalid.png);
-                                                          background-position: right top;
-                                                          background-repeat: no-repeat;
-                                                      }
-
-
-                                                    .form input:required:focus:valid {
-                                                        border-left-color: salmon;
-                                                        background: url("/images/valid.png") no-repeat 95% 50%;
-                                                    } }
-
 /* Mobile first queries */
 
 /* Larger than mobile */
