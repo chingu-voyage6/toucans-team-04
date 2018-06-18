@@ -41,7 +41,6 @@ header, footer, .main-nav, .logo{
 /* Showcase box */
 
 .showcase-box {
-
 }
 
 .showcase-slider {
@@ -53,6 +52,11 @@ header, footer, .main-nav, .logo{
 
     padding-top: 3%;
     padding-bottom: 3%;
+}
+
+.showcase-slider-item img{
+    overflow: hidden;
+    width: 95%;
 }
 
 /* Description box */
