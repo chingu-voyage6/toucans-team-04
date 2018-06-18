@@ -1,0 +1,22 @@
+/* Typography */
+ 
+body {
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: .05em;
+    text-align: center;
+    color: #222222;
+    font-family: 'Lato', sans-serif;
+  }
+
+  h1, h3{
+    font-family: 'Lato', sans-serif;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  h3 {
+    font-size: 22px;
+  }

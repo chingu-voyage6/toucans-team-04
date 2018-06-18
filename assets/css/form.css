@@ -1,0 +1,23 @@
+/*
+----------------------*
+    FORMS             *
+----------------------* 
+*/
+
+
+/* Valdidation */
+
+.form-valdidation input:required:invalid, input:focus:invalid { {
+    border-left-color: palegreen;
+    background-image: url("../images/invalid.png");
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+
+
+.form-valdidation input:required:focus:valid {
+  border-left-color: salmon;
+  background: url("../images/valid.png") no-repeat 95% 50%;
+} 
+
+
