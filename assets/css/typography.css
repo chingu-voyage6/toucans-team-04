@@ -6,11 +6,7 @@ body {
     letter-spacing: .05em;
     text-align: center;
     color: #222222;
-    font-family: 'Lato', sans-serif;
-  }
-
-  h1, h3{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato', arial, sans-serif;
   }
 
   h2 {

@@ -3,7 +3,16 @@
     FORMS             *
 ----------------------* 
 */
+.form {
+    display: flex;
+    flex-direction: column;
+}
+legend { font-weight: 400;}
+label { font-weight: normal; } 
 
+input {
+    padding: 50px;
+}
 
 /* Valdidation */
 
