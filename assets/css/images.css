@@ -1,21 +1,27 @@
 /*--------------------------------------------------------------
-Layout
+Images
 --------------------------------------------------------------*/
 
 
-.content {
-    width: 80%;
-    margin-right: auto;
-    margin-left: auto;
-    text-align: center;
+img {
+    display: block;
+    width: 100%;
+}
 
-    
+figure {
+    margin: 0;
+    padding: 0;
 }
 
 
 /* Media queries for larger screens  */
 @media (min-width: 600px) {
 
+    .section-c img {
+        width: 75%;
+    }
 
-
-}
+    .section-a img {
+        width: 50%;
+    }
+  }
