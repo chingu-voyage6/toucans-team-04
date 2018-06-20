@@ -1,3 +1,198 @@
+<<<<<<< HEAD
+
+/*
+----------------------
+Main Stylesheet for SpaceTours
+Authors: Chingu team 04
+https://github.com/chingu-voyage6/toucans-team-04
+
+Sources used:
+Boilerplate: http://getskeleton.com/
+Icons: https://www.flaticon.com        
+----------------------
+*/
+
+
+header, footer, .main-nav, .logo{
+    display: flex;
+    font-size: 14px;
+}
+
+
+.text-centered {
+    text-align: center;
+}
+
+/* Section B */
+
+.section-b h6 {
+    font-weight: bold;
+    font-stretch: expanded;
+
+    padding: 0;
+    margin: 0;
+}
+
+.section-b h5 {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin: 0;
+}
+
+/* Showcase box */
+
+.showcase-box {
+
+}
+
+.showcase-slider {
+    display: flex;
+    display: -webkit-flex;
+
+    align-items: center;
+    justify-content: center;
+
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+/* Description box */
+
+.description-box {
+    border-top: 1px dashed #ccc;
+}
+
+.description-box-short div {
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.description-box-short img {
+    border-radius: 50%;
+}
+
+.description-box-offer {
+    display: flex;
+    display: -webkit-flex;
+
+    align-items: center;
+    justify-content: center;
+
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.try-now-button {
+    margin: 3%;
+}
+
+/*
+ * Header + nav
+ */
+
+header, .main-nav, .logo{
+    justify-content: space-between;
+    align-items: flex-end;
+    box-sizing: border-box;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.logo{
+    width: 20%;
+    justify-content: flex-end
+}
+
+.main-nav{
+    margin-top: 5px;
+    width: 80%;
+}
+
+.main-nav a{
+    padding: 10px 15px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/*TECHNOLOGY SECTION*/
+
+h2{
+    text-align: center; 
+}
+
+.img-tech{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img-tech p{
+    text-align:center;
+}
+
+/*Footer*/
+
+.social-media{
+    font-size: 2em;
+    margin-bottom: 5%;
+    margin-right: 3%;
+    color: white;
+}
+
+footer{
+    background-color: #e7e7e7;
+    align-items: center;
+    flex-direction: column;
+    padding: 2em 3em;
+    padding-bottom: 0;
+    font-size: 1em;
+}
+
+/*copyright*/
+
+.copyright{
+    text-align:center;
+    padding: 2em;
+    font-size: 1em;
+    background-color: black;
+    color: white;
+}
+
+/* Mobile first queries */
+
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than phablet */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+    .showcase-heading {
+        font-size: 3.0rem;
+        padding-top:11rem;
+    }
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+    
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
+
+=======
 
 /*
 ----------------------
@@ -183,3 +378,4 @@ footer{
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
 
+>>>>>>> development
