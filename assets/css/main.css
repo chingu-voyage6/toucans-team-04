@@ -17,6 +17,10 @@ header, footer, .main-nav, .logo{
     font-size: 14px;
 }
 
+img{
+    max-width:100%;
+}
+
 
 .text-centered {
     text-align: center;
@@ -56,7 +60,6 @@ header, footer, .main-nav, .logo{
 
 .showcase-slider-item img{
     overflow: hidden;
-    width: 95%;
 }
 
 /* Description box */
@@ -174,10 +177,35 @@ footer{
 /* Mobile first queries */
 
 /* Larger than mobile */
-@media (min-width: 400px) {}
+@media (min-width: 400px) {
+    .logo{
+        margin-left: 1em;
+    }
+    h2{
+        padding: 0em 1em;
+    }
+    .eight{
+        padding: 0em 2em;
+    }
+    .discover{
+        padding: 0em .5em;
+    }
+    h2, h3{
+        word-spacing: .2em;
+    }
+    legend{
+    margin: auto;
+    margin-bottom: 1em;
+    font-size: 18px;
+}
+}
 
 /* Larger than phablet */
-@media (min-width: 550px) {}
+@media (min-width: 550px) {
+    footer{
+        padding: 2em 5em;
+    }
+}
 
 /* Larger than tablet */
 @media (min-width: 750px) {

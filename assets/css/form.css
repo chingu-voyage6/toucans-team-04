@@ -7,7 +7,12 @@
 
 /* Valdidation */
 
-.form-valdidation input:required:invalid, input:focus:invalid { {
+/*BUG: remember to open an issue and discuss this problem
+
+    The CSS of below is invalid. When I delete the extra { and I fill the form,
+        both of these icons for an valid or an invalid output are shown incorrectly inside the input.
+*/
+.form-validation input:required:invalid, input:focus:invalid { {
     border-left-color: palegreen;
     background-image: url("../images/invalid.png");
     background-position: right top;
@@ -15,7 +20,7 @@
 }
 
 
-.form-valdidation input:required:focus:valid {
+.form-validation input:required:focus:valid {
   border-left-color: salmon;
   background: url("../images/valid.png") no-repeat 95% 50%;
 } 
