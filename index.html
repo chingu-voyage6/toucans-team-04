@@ -8,16 +8,16 @@
     <title>SpaceTours</title>
     <link rel="stylesheet" media="(max-device-width: 320px)" href="assets/css/mobile.css" />
     <link rel="stylesheet" media="(min-width: 1600px)" href="assets/css/widescreen.css" />
-    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" type="text/css" media="all" href="assets/css/main.css">
 </head>
 
 <body>
-    <header class="row">
-
-        <img src="assets/images/logo.png" alt="logo">
-
-        <nav class="row">
-            <ul class="column column-12">
+    <div class="container">
+        <header>
+            <img src="assets/images/logo.png" alt="logo">
+        </header>
+        <nav>
+            <ul>
                 <li>
                     <a href="#">Tours</a>
                 </li>
@@ -29,132 +29,91 @@
                 </li>
             </ul>
         </nav>
-        </div>
+        <main>
+            <section class="showcase-box">
+                <img src="assets/images/image01.jpg" alt="description">
+            </section>
 
-        </div>
+            <section class="description">
+                <h2>Experience the hugeness of our Galaxy, live your second life in Space!</h2>
+                <img src="http://via.placeholder.com/150x150" alt="description">
+                <h3>Exploration</h3>
+                <span>Discover and admire the most breathtaking wonders of Milky Way.</span>
+                <img src="http://via.placeholder.com/150x150" alt="description">
+                <h3>Experiences</h3>
+                <span> Unforgettable, out of this planet experiences. </span>
+                <img src="http://via.placeholder.com/150x150" alt="description">
+                <h3>Stories</h3>
+                <span> Find and complete hundreds of professionally written storylines. </span>
 
-
-    </header>
-    <main>
-        <section class="showcase-box column column-9">
-            <img src="assets/images/image01.jpg" alt="description">
-        </section>
-
-        <section class="description column column-9">
-            <h2>Experience the hugeness of our Galaxy, live your second life in Space!</h2>
-            <div class="row description-box-short">
-                <div class="description-item column column-4">
-                    <img src="http://via.placeholder.com/150x150" alt="description">
-                    <h3>Exploration</h3>
-                    <span>Discover and admire the most breathtaking wonders of Milky Way.</span>
-                </div>
-                <div class="description-item column column-4">
-                    <img src="http://via.placeholder.com/150x150" alt="description">
-                    <h3>Experiences</h3>
-                    <span> Unforgettable, out of this planet experiences. </span>
-                </div>
-                <div class="description-item column column-4">
-                    <img src="http://via.placeholder.com/150x150" alt="description">
-                    <h3>Stories</h3>
-                    <span> Find and complete hundreds of professionally written storylines. </span>
-                </div>
-            </div>
-            <div class="row description-box-offer">
-                <div class="column column-8">
+                <p>
                     We offer virtual reality simulations that take you into an amazing interstellar journey. Our VR technologies are so advanced
                     you wouldn't be able to tell fiction from reality. All of this online - with other people exploring space
                     along with you, but also hundreds of stories written by our professional storytellers and filled with
                     fantastic, life-like AI.
-                </div>
-            </div>
-            <button class="try-now-button">Try it now!</button>
-            <h2>Now you have the possibility!</h2>
-            </div>
-            </div>
+                </p>
+                <button class="try-now-button">Try it now!</button>
+                <h2>Now you have the possibility!</h2>
+            </section>
 
-        </section>
+            <section class="example-stories">
+                <h3>Scenario 1</h3>
+                <img src="http://via.placeholder.com/300x150" alt="placeholder">
 
-        <section class="example-stories column column-12">
+                <h3>Scenario 2</h3>
+                <img src="http://via.placeholder.com/300x150" alt="placeholder">
 
-            <!-- Example stories -->
-            <div class="container">
-                <div class="row">
-                    <div class="example-stories column column-6">
-                        <h3>Scenario 1</h3>
-                        <img src="http://via.placeholder.com/300x150" alt="placeholder">
-                    </div>
-                    <div class="example-stories column column-6">
-                        <h3>Scenario 2</h3>
-                        <img src="http://via.placeholder.com/300x150" alt="placeholder">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="example-stories column column-6">
-                        <h3>Scenario 3</h3>
-                        <img src="http://via.placeholder.com/300x150" alt="placeholder">
-                    </div>
-                    <div class="example-stories column column-6">
-                        <h3>Scenario 3</h3>
-                        <img src="http://via.placeholder.com/300x150" alt="placeholder">
-                    </div>
-                </div>
-            </div>
+                <h3>Scenario 3</h3>
+                <img src="http://via.placeholder.com/300x150" alt="placeholder">
 
-            <!-- Sign-up form -->
-            <div class="form column column-12">
+                <h3>Scenario 3</h3>
+                <img src="http://via.placeholder.com/300x150" alt="placeholder">
+
+
+
                 <h2>Sign up for our Newsletter</h2>
                 <p>Please feel free to Sign-up for our newsletter, we will send exclusive inside information about our technologiesand
                     development processes once a week.</p>
-                <form class="form-valdidation">
+                <form class="form-valdidation">
                     <fieldset>
-                        <!-- 
-                                                            <label class="u-full-width" for="firstName"></label>
-                                                            <input placeholder="First Name" id="firstName" type="text" required pattern="[A-Za-z-0-9]+\s[A-Za-z-'0-9]+">
-                                                            <label class="u-full-width" for="lastName"></label>
-                                                            <input placeholder="Last Name" id="lastName" type="text" required pattern="[A-Za-z-0-9]+\s[A-Za-z-'0-9]+"> -->
                         <label for="exampleEmailInput"></label>
                         <input placeholder="Enter a valid email address" id="email" type="email" required pattern="[^ @]*@[^ @]*">
 
                         <input class="button" value="Submit" type="submit">
                     </fieldset>
                 </form>
-            </div>
 
-        </section>
 
-        <section class="technology column column-12">
+            </section>
 
-            <!-- Technology -->
+            <section class="technology">
 
-            <h2>Technology</h2>
-            <div class="row">
-                <div class="technology column column-4">
-                    <img src="http://via.placeholder.com/300x150" alt="placeholder">
-                    <p>Lorem Ipsum</p>
-                </div>
-                <div class="technology column column-4">
-                    <img src="http://via.placeholder.com/300x150" alt="placeholder">
-                    <p>Lorem Ipsum</p>
-                </div>
-                <div class="technology column column-4">
-                    <img src="http://via.placeholder.com/300x150" alt="placeholder">
-                    <p>Lorem Ipsum</p>
-                </div>
-            </div>
 
-        </section>
-    </main>
+                <h2>Technology</h2>
+                <img src="http://via.placeholder.com/300x150" alt="placeholder">
+                <p>Lorem Ipsum</p>
 
-    <footer>
+                <img src="http://via.placeholder.com/300x150" alt="placeholder">
+                <p>Lorem Ipsum</p>
+
+                <img src="http://via.placeholder.com/300x150" alt="placeholder">
+                <p>Lorem Ipsum</p>
+
+
+            </section>
+        </main>
+        <aside>
             <p>Our technologies are so advanced you wouldn't be able to tell fiction from reality.</p>
-            <p>All of this online, with other people exploring space along with you, but also hundreds of stories written, by our
-                professional storytellers.</p>
-    
+            <p>All of this online, with other people exploring space along with you, but also hundreds of stories written, by
+                our professional storytellers.</p>
+        </aside>
+        <footer>
             <div class="copyright">
                 <span>&copy;SpaceTours 2018</span>
             </div>
-    </footer>
-
+        </footer>
+    </div>
+    <!-- Container end -->
 </body>
 
 </html>
