@@ -4,6 +4,24 @@
 ----------------------* 
 */
 
+label {
+    font-weight: 300;
+    width; 100%;
+}
+
+legend {
+    font-weight: 300;
+}
+
+.form {
+    margin-top: 50px;
+    max-width: 500px;
+}
+
+input, textarea {
+    width: 100%;
+  }
+
 
 /* Valdidation */
 
