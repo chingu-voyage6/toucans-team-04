@@ -1,0 +1,23 @@
+/* TEAM */
+
+Authors: 
+            - Mikhelele
+            - Amsteffensen
+            - Heros
+
+Repository: https://github.com/chingu-voyage6/toucans-team-04
+
+Team: Toucans 6 from Chingu Voyage 6
+
+
+/*THANKS*/
+
+Chingu
+https://chingu.io/
+
+
+/*SITE*/
+
+Standars: HTML5, CSS3 (FlexBox), Javascript
+Components: Jquery, Skeleton, Normalize
+Icons and Typography: Font-awesome, Google Fonts (Lato)
